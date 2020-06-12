@@ -36,7 +36,9 @@ if response["success"] == True:
             else:
                 groups[group_name] = [dec]
 
-    print("Adding the following groups:")
+    print(
+        "Adding the following groups to the system with shortname {}:".format(shortname)
+    )
 
     url = "https://admin.openmhz.com/groups/{}".format(shortname)
     # url = "http://localhost:9123"
