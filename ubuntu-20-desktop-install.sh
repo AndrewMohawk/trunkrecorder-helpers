@@ -21,6 +21,8 @@ mkdir -p /app/media
 mkdir -p /app/config
 cp config/config.json /app/config
 cp config/talkgroup-trunkrecorder-format.csv /app
+sudo chmod 777 /app/config/config.json
+sudo chmod 777 /app/talkgroup-trunkrecorder-format.csv
 
 echo "---------------------------------------------------"
 echo "[+] Installing Packages.. this might take a while.."
@@ -55,6 +57,7 @@ make
 make install
 cp ./recorder /app/trunk-recorder
 
+sed -i 's/log_level = debug/log_level = info/g' /etc/gnuradio/conf.d/gnuradio-runtime.conf 
 
 echo "--------------------------------------------------------------------------"
 echo "[+] Completed. You can now copy your config file and start trunk-recorder"

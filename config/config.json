@@ -2,17 +2,17 @@
     "sources": [
         {
             "center": 852000000.0,
-            "rate": 1920000,
-            "ppm": 55.0,
+            "rate": 2400000,
+            "ppm": 0,
             "lnaGain": 30,
-            "modulation": "fsk4",
-            "driver": "osmosdr",
             "squelch": -40,
-            "device": "rtl=0,buflen=65536",
             "analogRecorders": 16,
             "analogLevels": 8,
             "digitalRecorders": 8,
-            "digitalLevels": 8
+            "digitalLevels": 8,
+            "modulation": "fsk4",
+            "driver": "osmosdr",
+            "device": "rtl=0,buflen=65536"
         }
     ],
     "systems": [
@@ -29,5 +29,5 @@
         }
     ],
     "uploadServer": "https://api.openmhz.com",
-    "captureDir": "/tmp/media"
+    "captureDir": "/app/media"
 }
