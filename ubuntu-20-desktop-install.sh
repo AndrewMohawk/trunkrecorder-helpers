@@ -17,6 +17,10 @@ add-apt-repository -y ppa:nuandllc/bladerf
 
 git clone https://github.com/AndrewMohawk/trunkrecorder-helpers.git
 cd trunkrecorder-helpers
+mkdir -p /app/media
+mkdir -p /app/config
+cp config/config.json /app/config
+cp config/talkgroup-trunkrecorder-format.csv /app
 
 echo "---------------------------------------------------"
 echo "[+] Installing Packages.. this might take a while.."
@@ -49,10 +53,9 @@ echo "--------------------------------------------"
 cmake ../
 make 
 make install
-mkdir /app && cp ./recorder /app/trunk-recorder
-mkdir -p /app/media
-mkdir -p /app/config
+cp ./recorder /app/trunk-recorder
 
-echo "-------------------------------------------------------------------------"
+
+echo "--------------------------------------------------------------------------"
 echo "[+] Completed. You can now copy your config file and start trunk-recorder"
 echo "--------------------------------------------------------------------------"

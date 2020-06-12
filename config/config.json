@@ -1,0 +1,33 @@
+{
+    "sources": [
+        {
+            "center": 852000000.0,
+            "rate": 1920000,
+            "ppm": 55.0,
+            "lnaGain": 30,
+            "modulation": "fsk4",
+            "driver": "osmosdr",
+            "squelch": -40,
+            "device": "rtl=0,buflen=65536",
+            "analogRecorders": 16,
+            "analogLevels": 8,
+            "digitalRecorders": 8,
+            "digitalLevels": 8
+        }
+    ],
+    "systems": [
+        {
+            "control_channels": [
+                851450000,
+                851250000
+            ],
+            "type": "smartnet",
+            "talkgroupDisplayFormat": "tag_id",
+            "talkgroupsFile": "talkgroup-trunkrecorder-format.csv",
+            "apiKey": "APIKEYHERE",
+            "shortName": "SHORTNAMEHERE"
+        }
+    ],
+    "uploadServer": "https://api.openmhz.com",
+    "captureDir": "/tmp/media"
+}

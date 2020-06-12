@@ -3,17 +3,15 @@
 FROM ubuntu:20.04
 RUN apt update -y 
 RUN apt upgrade -y
-RUN apt install 
+#RUN apt install 
 
 #BladeRF Repo
 RUN apt install -y software-properties-common
 RUN add-apt-repository -y ppa:nuandllc/bladerf
 
 
-RUN apt install -y gr-osmosdr osmo-sdr libosmosdr0 libosmosdr-dev libuhd3.15.0 libuhd-dev gnuradio-dev libgnuradio-uhd3.8.1 libgnuradio-osmosdr0.2.0 hackrf libhackrf-dev libhackrf0 git gcc cpp cmake make build-essential libboost-all-dev libusb-1.0-0 libusb-dev fdkaac libfdk-aac-dev libfdk-aac1 libsox3 libsox-dev libsoxr0 sox ffmpeg libaacs0 libcppunit-dev libcppunit-1.15-0 libvo-aacenc0 libssl-dev openssl curl libcurl4 libcurl4-openssl-dev gnuradio libuhd-dev libcurl3-gnutls bladerf libbladerf-dev libtecla1  libncurses5-dev libtecla-dev pkg-config wget gqrx-sdr liborc-0.4-dev  
+RUN apt install -y gr-osmosdr osmo-sdr libosmosdr0 libosmosdr-dev libuhd3.15.0 libuhd-dev gnuradio-dev libgnuradio-uhd3.8.1 libgnuradio-osmosdr0.2.0 hackrf libhackrf-dev libhackrf0 git gcc cpp cmake make build-essential libboost-all-dev libusb-1.0-0 libusb-dev fdkaac libfdk-aac-dev libfdk-aac1 libsox3 libsox-dev libsoxr0 sox ffmpeg libaacs0 libcppunit-dev libcppunit-1.15-0 libvo-aacenc0 libssl-dev openssl curl libcurl4 libcurl4-openssl-dev gnuradio libuhd-dev libcurl3-gnutls bladerf libbladerf-dev libtecla1  libncurses5-dev libtecla-dev pkg-config wget gqrx-sdr liborc-0.4-dev autoconf automake build-essential libass-dev libfreetype6-dev libtool pkg-config texinfo zlib1g-dev yasm libfdk-aac-dev
 
-#Packages for trunk recorder
-RUN apt install -y autoconf automake build-essential libass-dev libfreetype6-dev libtool pkg-config texinfo zlib1g-dev yasm libfdk-aac-dev
 
 RUN apt-get install -y locales \
     && echo "en_US.UTF-8 UTF-8" > /etc/locale.gen \
@@ -43,34 +41,15 @@ RUN mkdir -p /app/media
 RUN mkdir -p /app/config
 
 #Lets copy all the config files over
-COPY config/config-sf-bladerf.json /app/config/config.json
-COPY config/talkgroupsSF_nohex.csv /app/
+COPY config/config.json /app/config/config.json
+COPY config/talkgroup-trunkrecorder-format.csv /app/
 
 #Set GR to info only
 RUN sed -i 's/log_level = debug/log_level = info/g' /etc/gnuradio/conf.d/gnuradio-runtime.conf 
 
 WORKDIR /app
-CMD ["./trunk-recorder","--config=/app/config/config-sf-bladerf.json"]
+CMD ["./trunk-recorder","--config=/app/config/config.json"]
 
-
-
-#controlchan:    851.424400
-#actual:         851.425000
-#000.000600
-#pp: 600
-
-#backend=libusb,device=0x04:0x02,driver=bladerf,instance=0,serial=f289b43f2b406b26d1a3355cae1f9594,
-# RUN mkdir -p /app/media
-# RUN mkdir -p /app/config
-
-# COPY *.csv /app/
-
-# ENV LC_ALL en_US.UTF-8
-# ENV LANG en_US.UTF-8
-# ENV LANGUAGE en_US.UTF-8
-
-# WORKDIR /app
-# CMD ["./recorder","--config=/app/config/config.json"]
 
 
 
