@@ -1,0 +1,33 @@
+{
+    "sources": [
+        {
+            "center": 852000000.0,
+            "rate": 1920000,
+            "ppm": 55.0,
+            "lnaGain": 30,
+            "modulation": "fsk4",
+            "driver": "osmosdr",
+            "squelch": -40,
+            "device": "rtl=0,buflen=65536",
+            "analogRecorders": 16,
+            "analogLevels": 8,
+            "digitalRecorders": 8,
+            "digitalLevels": 8
+        }
+    ],
+    "systems": [
+        {
+            "control_channels": [
+                851450000,
+                851250000
+            ],
+            "type": "smartnet",
+            "talkgroupDisplayFormat": "tag_id",
+            "talkgroupsFile": "talkgroupsSF_swapped.csv",
+            "apiKey": "944fd5972faa405b5b4ccb1d78f9bcabc4e7c3f81afedd9ca3c8f240ed02dba8",
+            "shortName": "stf"
+        }
+    ],
+    "uploadServer": "https://api.openmhz.com",
+    "captureDir": "/tmp/media"
+}
