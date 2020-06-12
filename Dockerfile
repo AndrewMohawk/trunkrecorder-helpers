@@ -10,7 +10,7 @@ RUN apt install -y software-properties-common
 RUN add-apt-repository -y ppa:nuandllc/bladerf
 
 
-RUN apt install -y gr-osmosdr osmo-sdr libosmosdr0 libosmosdr-dev libuhd3.15.0 libuhd-dev gnuradio-dev libgnuradio-uhd3.8.1 libgnuradio-osmosdr0.2.0 hackrf libhackrf-dev libhackrf0 git gcc cpp cmake make build-essential libboost-all-dev libusb-1.0-0 libusb-dev fdkaac libfdk-aac-dev libfdk-aac1 libsox3 libsox-dev libsoxr0 sox ffmpeg libaacs0 libcppunit-dev libcppunit-1.15-0 libvo-aacenc0 libssl-dev openssl curl libcurl4 libcurl4-openssl-dev gnuradio libuhd-dev libcurl3-gnutls bladerf libbladerf-dev libtecla1  libncurses5-dev libtecla-dev pkg-config wget gqrx-sdr liborc-0.4-dev autoconf automake build-essential libass-dev libfreetype6-dev libtool pkg-config texinfo zlib1g-dev yasm libfdk-aac-dev
+RUN apt install -y gr-osmosdr osmo-sdr libosmosdr0 libosmosdr-dev libuhd3.15.0 libuhd-dev gnuradio-dev libgnuradio-uhd3.8.1 libgnuradio-osmosdr0.2.0 hackrf libhackrf-dev libhackrf0 git gcc cpp cmake make build-essential libboost-all-dev libusb-1.0-0 libusb-dev fdkaac libfdk-aac-dev libfdk-aac1 libsox3 libsox-dev libsoxr0 sox ffmpeg libaacs0 libcppunit-dev libcppunit-1.15-0 libvo-aacenc0 libssl-dev openssl curl libcurl4 libcurl4-openssl-dev gnuradio libuhd-dev libcurl3-gnutls bladerf libbladerf-dev libtecla1  libncurses5-dev libtecla-dev pkg-config wget liborc-0.4-dev autoconf automake build-essential libass-dev libfreetype6-dev libtool pkg-config texinfo zlib1g-dev yasm libfdk-aac-dev
 
 
 RUN apt-get install -y locales \
