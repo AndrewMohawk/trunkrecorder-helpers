@@ -1,0 +1,179 @@
+16,DE,SFPD TAC 7,Tactical 7,Law Tac,Police,100
+48,DE,SFPD TAC B14,Tactical B14,Law Tac,Police,100
+80,DE,SFPD NARC 2,Narcotics 2,Law Tac,Police,100
+112,DE,SFPD NARC 3,Narcotics 3,Law Tac,Police,100
+144,DE,SFPD NARC 4,Narcotics 4,Law Tac,Police,100
+176,DE,SFPD NARC 5,Narcotics 5,Law Tac,Police,100
+208,DE,SFPD SID 2,Special Investigations Division 2,Law Tac,Police,100
+240,DE,SFPD VICE 1,Vice 1,Law Tac,Police,100
+272,DE,SFPD CMD 1,Command 1,Law Talk,Police,100
+304,DE,SFPD CMD 2,Command 2,Law Talk,Police,100
+400,DE,SFPD Encr 400,Encrypted,Law Talk,Police,100
+432,DE,SFPD Encr 432,Encrypted,Law Talk,Police,100
+528,DE,SFPD Encr 528,Encrypted,Law Talk,Police,100
+560,DE,SFPD Encr 560,Encrypted,Law Talk,Police,100
+592,DE,SFPD Encr 592,Encrypted,Law Talk,Police,100
+720,DE,SFPD Encr 720,Encrypted,Law Talk,Police,100
+944,DE,SFFD EMS1,EMS 1  FDB13  MedicHospital  All Hospitals,Hospital,EMS,100
+976,DE,SFFD EMS2,EMS 2  FDB14  MedicHospital  SFGH,Hospital,EMS,100
+1008,DE,SFFD B7,Arson,Fire-Talk,Fire,100
+12848,A,SFPD A1,Dispatch Mobiles  Southern B  Tenderloin J Districts,Law Dispatch,Police,100
+12880,A,SFPD A2,Service Portables  Southern B  Tenderloin J Districts,Law Talk,Police,100
+12912,A,SFPD A3,Dispatch Mobiles  Bayview C  Mission D Districts,Law Dispatch,Police,100
+12944,A,SFPD A4,Service Portables  Bayview C  Mission D Districts,Law Talk,Police,100
+12976,A,SFPD A5,Dispatch Mobiles  Central A  Northern E  Park F Districts,Law Dispatch,Police,100
+13008,A,SFPD A6,Service Portables  Central A  Northern E  Park F Districts,Law Talk,Police,100
+13040,A,SFPD A7,Dispatch Mobiles  Richmond G  Ingleside H  Taraval I Districts,Law Dispatch,Police,100
+13072,A,SFPD A8,Service Portables  Richmond G  Ingleside H  Taraval I Districts,Law Talk,Police,100
+13104,A,SFPD A9,Dispatch Spare,Law Dispatch,Police,100
+13136,A,SFPD A10,Dispatch Spare,Law Dispatch,Police,100
+13168,A,SFPD A11,PAT  Muni  Tac  Traffic,Law Talk,Police,100
+13200,A,SFPD A12,Dispatch Spare,Law Dispatch,Police,100
+13232,A,SFPD A13,Station Service A B E F J,Law Talk,Police,100
+13264,A,SFPD A14,Station Service C D G H I,Law Talk,Police,100
+13296,A,SFPD PAROLE,Parole,Law Talk,Police,100
+13360,A,SFPD MA 1,Mutual Aid 1,Law Tac,Police,100
+13392,A,SFPD MA 2,Mutual Aid 2,Law Tac,Police,100
+13424,A,SFPD MA 3,Mutual Aid 3,Law Tac,Police,100
+13520,A,EVENT 1,All City Event 1,Interop,CitywideMutual Aid,100
+13552,A,EVENT 2,All City Event 2,Interop,CitywideMutual Aid,100
+13584,A,SAFEVT 1,Public Safety Event 1,Interop,CitywideMutual Aid,100
+13616,A,SAFEVT 2,Public Safety Event 2,Interop,CitywideMutual Aid,100
+13648,A,SAFEVT 3,Public Safety Event 3,Interop,CitywideMutual Aid,100
+13680,A,MAP,Mobile Assistance Patrol,Public Works,Public Service Emergency Radio System,100
+13712,A,SFPD B3,Tactical B3,Law Talk,Police,100
+13840,A,ENF EVT 1,Enforcement Event 1,Interop,CitywideMutual Aid,100
+13872,A,ENF EVT 2,Enforcement Event 2,Interop,CitywideMutual Aid,100
+13904,A,ENF EVT 3,Enforcement Event 3,Interop,CitywideMutual Aid,100
+13936,A,ENF EVT 4,Enforcement Event 4,Interop,CitywideMutual Aid,100
+13968,A,SFPD HSU,Homeland Security Unit,Law Talk,Police,100
+14064,A,SFPD MA 4,Mutual Aid 4,Law Tac,Police,100
+14224,A,SFPD MA 5,Mutual Aid 5,Law Tac,Police,100
+14544,A,SFPD INV 1,Investigations 1  Administration,Law Talk,Police,100
+14704,A,SFPD TRNG 1,Training 1,Law Talk,Police,100
+14736,A,SFPD TRNG 2,Training 2,Law Talk,Police,100
+14800,A,SFFD A1,Control A1  Downtown Dispatch,Fire Dispatch,Fire,100
+14832,A,SFFD A2,Control A2  NorthWest Dispatch,Fire Dispatch,Fire,100
+14864,A,SFFD A3,Control A3  SouthEast Dispatch,Fire Dispatch,Fire,100
+14896,A,SFFD A4,Command A4  Major Incidents,Fire-Talk,Fire,100
+14928,A,SFFD A5,Command A5  Division 2,Fire-Talk,Fire,100
+14960,A,SFFD A6,Command A6  Division 3,Fire-Talk,Fire,100
+14992,A,SFFD A7,Tactical A7  Battalion 7,Fire-Tac,Fire,100
+15024,A,SFFD A8,Tactical A8  Battalion 8,Fire-Tac,Fire,100
+15056,A,SFFD A9,Tactical A9  Battalion 9,Fire-Tac,Fire,100
+15088,A,SFFD A10,Tactical A10  Battalion 10,Fire-Tac,Fire,100
+15120,A,SFFD A11,Tactical A11  Battalion 1,Fire-Tac,Fire,100
+15152,A,SFFD A12,Tactical A12  Battalion 2,Fire-Tac,Fire,100
+15184,A,SFFD A13,Tactical A13  Battalion 3,Fire-Tac,Fire,100
+15216,A,SFFD A14,Tactical A14  Battalion 4,Fire-Tac,Fire,100
+15248,A,SFFD A15,Tactical A15  Battalion 5,Fire-Tac,Fire,100
+15280,A,SFFD A16,Tactical A16  Battalion 6,Fire-Tac,Fire,100
+15344,A,SFFD EMS4,EMS 4  FDB16  Private Ambulances,EMS Dispatch,EMS,100
+15440,A,SFFD B8,Prevention,Fire-Talk,Fire,100
+15472,A,SFFD B9,Auxiliary Water Supply System AWSS,Fire-Talk,Fire,100
+15504,A,MEDEXAM,Medical Examiner Coroner,Law Talk,City Government,100
+15600,A,SIRENTG,Outdoor Warning Sirens,Data,City Government,100
+15760,A,SFFD B10,Bureau of Equipment BOE,Fire-Talk,Fire,100
+15792,A,SFFD B12,Training,Fire-Talk,Fire,100
+15856,A,SFSD A1 CJ1,County Jail 1,Corrections,Sheriff,100
+15888,A,SFSD A2 CJ2,County Jail 2,Corrections,Sheriff,100
+15920,A,SFSD A3 CJ3,County Jail 3,Corrections,Sheriff,100
+15952,A,SFSD A4 CJ4,County Jail 4,Corrections,Sheriff,100
+15984,A,SFSD A5 CJ5,County Jail 5,Corrections,Sheriff,100
+16016,A,SFSD A6,"Laguna Honda Patrol ",Law Dispatch,Sheriff,100
+16048,A,SFSD A7,Classification UnitSBBS,Corrections,Sheriff,100
+16080,A,SFSD A8,City Hall Patrol Dispatch,Law Dispatch,Sheriff,100
+16112,A,SFSD A9,Juvenile Justice Commission JJC Courts,Law Dispatch,Sheriff,100
+16144,A,SFSD A10,"Courts Dispatch ",Law Dispatch,Sheriff,100
+16176,A,SFSD A11,TransportationSWAPSFGH,Law Tac,Sheriff,100
+16208,A,SFSD A12,Law Talk  Future,Law Tac,Sheriff,100
+16240,A,SFSD A15 TAC,TacticalEmergency Services Unit,Law Tac,Sheriff,100
+16272,A,SFSD A16 DSP,Patrol DispatchSF General,Law Dispatch,Sheriff,100
+16464,A,DPT A1,Dept of Parking  Traffic A1  PCO Dispatch,Law Tac,City Government,100
+16496,A,DPT A2,Dept of Parking  Traffic A2  PTC Administration  Engineering,Law Tac,City Government,100
+16528,A,DPT A3,Dept of Parking  Traffic A3  Paint  Traffic Signal Shops,Public Works,City Government,100
+16560,A,DPT A4,Dept of Parking  Traffic A4  Parking Meter  Sign Shops,Public Works,City Government,100
+16592,A,DPT A5,Dept of Parking  Traffic A5  PTC Special Events,Law Tac,City Government,100
+16624,A,DPT A6,Dept of Parking  Traffic A6  Traffic Control Center,Public Works,City Government,100
+16656,A,SCOFF,Parking Scofflaws also SFPD A15 SCOFFLAW,Law Tac,City Government,100
+16688,A,TOW,Parking Tow Dispatch also SFPD A16 TOW CH,Law Tac,City Government,100
+16816,A,WATER 1,Water Department 1  Administration,Utilities,City Government,100
+16848,A,WATER 2,Water Department 2  Operations,Utilities,City Government,100
+16912,A,REC A1,Recreation  Parks A1  AdminRecMarinaEvents,Public Works,City Government,100
+16944,A,REC A2,Recreation  Parks A2  Structural Maintenance,Public Works,City Government,100
+16976,A,REC A3,Recreation  Parks A3  Park Maintenance  Urban Forestry,Public Works,City Government,100
+17008,A,REC A4,Recreation  Parks A4  Park Patrol,Security,City Government,100
+17040,A,REC A5,Recreation  Parks A5  Candlestick Park,Public Works,City Government,100
+17072,A,Water 3,Water Department 3,Utilities,City Government,100
+17424,A,OES 1,Office of Emergency Services 1,Emergency Ops,OES  Homeland Security,100
+17456,A,OES 2,Office of Emergency Services 2,Emergency Ops,OES  Homeland Security,100
+17488,A,OES ADMIN,Office of Emergency Services  Administration,Emergency Ops,OES  Homeland Security,100
+17648,A,DTIS1,Telecomms  Info Services 1,Public Works,City Government,100
+17680,A,DTIS2,Telecomms  Info Services 2,Public Works,City Government,100
+17712,A,PUBSAFETY,Telecomms  Info Services 3  Public Safety,Public Works,City Government,100
+17744,A,TELECOM,Telecomms  Info Services 4  Telecommunications,Public Works,City Government,100
+17776,A,EMERGENCY2,Telecomms  Info Services 5  Emergency,Public Works,City Government,100
+17872,A,SFSU PD 1,Police Dispatch,Law Dispatch,San Francisco State University,100
+17904,A,SFSU PD 2,Police Tac,Law Tac,San Francisco State University,100
+17936,A,SFSU PD 3,Police Parking,Law Tac,San Francisco State University,100
+18032,A,UCSF PD 1,Police Dispatch,Law Dispatch,UC San Francisco,100
+18064,A,UCSF PD 2,Police 2,Law Tac,UC San Francisco,100
+18096,A,UCSF PD 3,Police 3,Law Tac,UC San Francisco,100
+18608,A,CCSF PD,City College of San Francisco Police,Law Dispatch,City Government,100
+19216,A,SFPD BU 1,Police BackUp 1,Law Talk,Public Service Emergency Radio System,100
+19248,A,SFPD BU 2,Police BackUp 2,Law Talk,Public Service Emergency Radio System,100
+19280,A,SFPD BU 3,Police BackUp 3,Law Talk,Public Service Emergency Radio System,100
+19312,A,SFPD BU 4,Police BackUp 4,Law Talk,Public Service Emergency Radio System,100
+19344,A,SFPD BU 5,Police BackUp 5,Law Talk,Public Service Emergency Radio System,100
+19376,A,SFFD BU 1,Fire BackUp 1,Fire-Talk,Public Service Emergency Radio System,100
+19408,A,SFFD BU 2,Fire BackUp 2,Fire-Talk,Public Service Emergency Radio System,100
+19440,A,SFSD BU 1,Sheriff BackUp 1,Law Talk,Public Service Emergency Radio System,100
+19472,A,SFSD BU 2,Sheriff BackUp 2,Law Talk,Public Service Emergency Radio System,100
+25136,A,SF USD 1,San Francisco Unified School District 1 Maintenance A,Schools,Public Service Emergency Radio System,100
+25168,A,SF USD 2,San Francisco Unified School District 2 Maintenance B,Schools,Public Service Emergency Radio System,100
+25200,A,SF USD 3,San Francisco Unified School District 3,Schools,Public Service Emergency Radio System,100
+25232,A,SF USD 4,San Francisco Unified School District 4,Schools,Public Service Emergency Radio System,100
+25648,A,Animal Contr,Animal Control,Public Works,Public Service Emergency Radio System,100
+26320,A,CAO 1,Chief Administrators Office 1 Special,Public Works,Public Service Emergency Radio System,100
+26352,A,CAO 2,Chief Administrators Office 2 Operations,Public Works,Public Service Emergency Radio System,100
+26384,A,CAO 3,Chief Administrators Office 3 Farmers Market,Public Works,Public Service Emergency Radio System,100
+32432,A,DA 1,District Attorney 1,Law Talk,Public Service Emergency Radio System,100
+48080,A,RADIO1,Radio Service 1,Public Works,Public Service Emergency Radio System,100
+48112,A,RADIO2,Radio Service 2,Public Works,Public Service Emergency Radio System,100
+48336,A,Port Admin,Port Authority  Administration,Public Works,Public Service Emergency Radio System,100
+48400,A,Port Maint,Port Authority  Maintenance,Public Works,Public Service Emergency Radio System,100
+48432,A,WETA,Water Emergency Transportation Authority,Public Works,Public Service Emergency Radio System,100
+49008,A,DPHOPS,Public Health 1  Operations,Public Works,Public Service Emergency Radio System,100
+49040,A,DPHADM,Public Health 3  Administration,Public Works,Public Service Emergency Radio System,100
+49072,A,SFGHENG,Public Health 2  SFGH Engineering,Law Dispatch,Public Service Emergency Radio System,100
+49104,A,LHHPD,Public Health 4  Laguna Honda Police,Law Dispatch,Public Service Emergency Radio System,100
+49136,A,LHHADMIN,Public Health 5  Laguna Honda Administration,Public Works,Public Service Emergency Radio System,100
+49200,A,SFGHIP,SF General Hospital  Institutional Police,Law Tac,Sheriff,100
+49328,A,SFFDAWSS,Fire Auxiliary Water Supply System AWSS Data,Data,Public Service Emergency Radio System,100
+50000,A,Library 1,SF Public Library 1  Security,Security,City Government,100
+50032,A,Library 2,SF Public Library 2,Public Works,City Government,100
+50064,A,Library 3,SF Public Library 3,Public Works,City Government,100
+61808,A,Motive Power,Motive Power Electrical maintenance,Public Works,City Government,100
+64656,A,DPW23 RE1,Real Estate 1,Public Works,Public Service Emergency Radio System,100
+64688,A,DPW22 RE2,Real Estate 2,Public Works,Public Service Emergency Radio System,100
+64720,A,DPW21 HOJ,Hall of Justice Engineering,Public Works,Public Service Emergency Radio System,100
+64752,A,DPW20 CE2,CE 2,Public Works,Public Service Emergency Radio System,100
+64784,A,DPW19 BInsp2,Building Inspectors 2,Public Works,Public Service Emergency Radio System,100
+64816,A,DPW18 BInsp1,Building Inspectors 1,Public Works,Public Service Emergency Radio System,100
+64848,A,DPW17 RepMt,Buildings Repair and Maintenance,Public Works,Public Service Emergency Radio System,100
+64880,A,DPW16 Sewer1,Wastewater Sewer Ops 1,Public Works,Public Service Emergency Radio System,100
+64912,A,DPW15 Sewer2,Wastewater Sewer Ops 2,Public Works,Public Service Emergency Radio System,100
+64944,A,DPW14 StSew2,Street and Sewer Repair 2,Public Works,Public Service Emergency Radio System,100
+64976,A,DPW13 Street,Street and Environmental Services 4,Public Works,Public Service Emergency Radio System,100
+65008,A,DPW12 Bldg 2,Building Repair 2,Public Works,Public Service Emergency Radio System,100
+65040,A,DPW11 StEv3,Street and Environmental Services 3,Public Works,Public Service Emergency Radio System,100
+65072,A,DPW10 Sup 2,Supervisors 2,Public Works,Public Service Emergency Radio System,100
+65104,A,DPW 9 Sup 1,Supervisors 1,Public Works,Public Service Emergency Radio System,100
+65136,A,DPW 8 EMERG,DPW Emergency,Public Works,Public Service Emergency Radio System,100
+65168,A,DPW 7 EngAr,Engineering and Architecture,Public Works,Public Service Emergency Radio System,100
+65200,A,DPW 6 UrbFor,Urban Forestry,Public Works,Public Service Emergency Radio System,100
+65232,A,DPW 5 StEv2,Street and Environmental Services 2,Public Works,Public Service Emergency Radio System,100
+65264,A,DPW 4 Bldg 1,Building Repair 1,Public Works,Public Service Emergency Radio System,100
+65296,A,DPW 3 StSew1,Street and Sewer Repair 1,Public Works,Public Service Emergency Radio System,100
+65328,A,DPW 2 StEv1,Street and Environmental Services 1,Public Works,Public Service Emergency Radio System,100
+65360,A,DPW 1 Disp,Dispatch,Public Works,Public Service Emergency Radio System,100

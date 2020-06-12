@@ -1,0 +1,50 @@
+{
+    "sources": [
+        {
+            "center": 852506250,
+            "rate": 2400000,
+            "error": 0,
+            "gain": 30,
+            "squelch": -40,
+            "modulation": "fsk4",
+            "analogRecorders": 8,
+            "analogLevels": 16,
+            "digitalRecorders": 4,
+            "digitalLevels": 8,
+            "driver": "osmosdr",
+            "device": "rtl=sfsdr01"
+        },
+        {
+            "center": 863756250,
+            "rate": 2400000,
+            "error": 0,
+            "gain": 30,
+            "squelch": -40,
+            "modulation": "fsk4",
+            "analogRecorders": 8,
+            "analogLevels": 16,
+            "digitalRecorders": 4,
+            "digitalLevels": 8,
+            "ppm": 57,
+            "driver": "osmosdr",
+            "device": "rtl=sfsdr02"
+        }
+    ],
+    "systems": [
+        {
+            "control_channels": [
+                851425000,
+                851250000
+            ],
+            "type": "smartnet",
+            "talkgroupDisplayFormat": "tag_id",
+            "talkgroupsFile": "talkgroups-SF-CERS-trunkrecorder-format.csv",
+            "bandplan": "800_rebrand",
+            "recordUnknown": "true",
+            "apiKey": "APIKEYHERE",
+            "shortName": "SHORTNAMEHERE"
+        }
+    ],
+    "uploadServer": "https://api.openmhz.com",
+    "captureDir": "/tmp/media"
+}

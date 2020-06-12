@@ -22,9 +22,9 @@
             ],
             "type": "smartnet",
             "talkgroupDisplayFormat": "tag_id",
-            "talkgroupsFile": "talkgroupsSF_swapped.csv",
-            "apiKey": "944fd5972faa405b5b4ccb1d78f9bcabc4e7c3f81afedd9ca3c8f240ed02dba8",
-            "shortName": "stf",
+            "talkgroupsFile": "talkgroups-SF-CERS-trunkrecorder-format.csv",
+            "apiKey": "APIKEYHERE",
+            "shortName": "SHORTNAMEHERE",
             "bandplan": "800_rebrand",
             "recordUnknown": "true"
         }
