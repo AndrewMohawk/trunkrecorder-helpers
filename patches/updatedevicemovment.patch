@@ -1,0 +1,55 @@
+diff --git a/trunk-recorder/systems/p25_parser.cc b/trunk-recorder/systems/p25_parser.cc
+index e5aebe5..070de4e 100644
+--- a/trunk-recorder/systems/p25_parser.cc
++++ b/trunk-recorder/systems/p25_parser.cc
+@@ -526,7 +526,7 @@ if (opcode == 0x00) { // group voice chan grant
+       message.source       = ta;
+       message.talkgroup    = ga;
+ 
+-      BOOST_LOG_TRIVIAL(trace) << "tsbk2f\tUnit Group Affiliation\tSource ID: " << std::setw(7) << ta << "\tGroup Address: " << std::dec << ga << "\tAnouncement Goup: " << aga;
++      BOOST_LOG_TRIVIAL(info) << "tsbk2f\tUnit Group Affiliation\tSource ID: " << std::setw(7) << ta << "\tGroup Address: " << std::dec << ga << "\tAnouncement Goup: " << aga;
+     } else if (opcode == 0x29) { // Secondary Control Channel Broadcast - Explicit
+       unsigned long rfid = bitset_shift_mask(tsbk, 72, 0xff);
+       unsigned long stid = bitset_shift_mask(tsbk, 64, 0xff);
+diff --git a/trunk-recorder/systems/smartnet_parser.cc b/trunk-recorder/systems/smartnet_parser.cc
+index 67b3e8c..579c947 100644
+--- a/trunk-recorder/systems/smartnet_parser.cc
++++ b/trunk-recorder/systems/smartnet_parser.cc
+@@ -205,7 +205,7 @@ if (x.size()<3) {
+ 	// BOOST_LOG_TRIVIAL(info) << "MSG [ TG: " << dec << stack[0].full_address << "] \t CMD: ( " << hex << stack[0].cmd << " - \t" << hex << stack[1].cmd << " - \t " << hex << stack[2].cmd   << " ] " << " Grp: [ " << stack[0].grp << " - \t " << stack[1].grp << " - \t " << stack[2].grp << " ]";
+ 
+   if (((command >= 0x340) && (command <= 0x34E)) || (command == 0x350)) {
+-    BOOST_LOG_TRIVIAL(info) << "Patching Command: " << hex << command << " Freq: " << FormatFreq(message.freq) << " Talkgroup: " << dec << address  << endl;
++    BOOST_LOG_TRIVIAL(trace) << "Patching Command: " << hex << command << " Freq: " << FormatFreq(message.freq) << " Talkgroup: " << dec << address  << endl;
+   }
+ 
+   if ((address & 0xfc00) == 0x2800) {
+@@ -216,6 +216,16 @@ if (x.size()<3) {
+   }
+ 
+ 
++  if (stack[0].cmd == 0x308 && !stack[0].grp && stack[1].cmd == 0x310) {
++	Talkgroup *tg = system->talkgroups->find_talkgroup(stack[1].address);
++
++	  std::string tgname;
++	  if (tg) { tgname = tg->description; }
++
++
++      BOOST_LOG_TRIVIAL(info) << "possible affiliate or req " << fixed << hex << stack[0].cmd << " " << stack[1].cmd << " addrs " << dec << stack[0].full_address << " " << stack[1].address << " -  " << tgname;
++  }
++
+   if (is_chan(stack[0].cmd, system) && stack[0].grp && getfreq(stack[0].cmd, system)) {
+     message.talkgroup = stack[0].full_address;
+     message.freq      = getfreq(stack[0].cmd, system);
+@@ -230,9 +240,10 @@ if (x.size()<3) {
+       message.message_type = UNKNOWN;
+       message.source       = 0;
+       return messages;
+-      }        
++  }
+     else {
+       message.message_type = UPDATE;
++
+       //cout << "NEW UPDATE [ Freq: " << fixed << getfreq(stack[0].cmd) << " CMD0: " << hex << stack[0].cmd << " CMD1: " << hex << stack[1].cmd << " CMD2: " << hex << stack[2].cmd   << " ] " << " Grp: " << stack[0].grp << " Grp1: " << stack[1].grp << endl;
+     }
+ 

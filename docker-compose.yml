@@ -1,0 +1,10 @@
+version: '3'
+services:
+  recorder:
+    privileged: true
+    build: .
+    image: andrewmohawk/trunkrecorder:latest
+    volumes:
+      - ./media:/app/media
+      - ./config:/app/config
+      - /dev/bus/usb:/dev/bus/usb

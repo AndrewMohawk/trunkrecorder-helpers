@@ -1,0 +1,13 @@
+diff --git a/trunk-recorder/systems/smartnet_parser.cc b/trunk-recorder/systems/smartnet_parser.cc
+index 9fc7939..e126eda 100644
+--- a/trunk-recorder/systems/smartnet_parser.cc
++++ b/trunk-recorder/systems/smartnet_parser.cc
+@@ -227,7 +227,7 @@ if (x.size()<3) {
+   }
+ 
+   if (is_chan(stack[0].cmd, system) && stack[0].grp && getfreq(stack[0].cmd, system)) {
+-    message.talkgroup = stack[0].full_address;
++    message.talkgroup = stack[0].address;
+     message.freq      = getfreq(stack[0].cmd, system);
+ 
+     if ((stack[1].cmd == 0x308) || (stack[1].cmd == 0x321)) {
